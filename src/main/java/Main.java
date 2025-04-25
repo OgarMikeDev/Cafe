@@ -15,5 +15,13 @@ public class Main {
         System.out.println(
                 "Полная стоимость второго напитка: " +
                         secondDrink.getTotalPrice() + " руб.");
+
+        Drink thirdDrink = new Americano(
+                "Американо", 0.3, 100,
+                false, true
+        );
+        System.out.println(
+                "Полная стоимость третьего напитка: " +
+                        thirdDrink.getTotalPrice() + " руб.");
     }
 }
